@@ -19,5 +19,14 @@ def liftLobby():
     print("As you look around, you find a flickering switch. Do you activate it? Yes/No")
     command = input()
 
+def kitchenScene():
+    directions = ["North", "South", "East", "West"]
+    item = ["a", "b"]
+    print("You're in the kitchen. It seems that there's a fire in here."
+          "Thick, black smoke shrouds your view. You need to act quickly."
+          "What do you look for first?"
+          "a) Fire extinguisher"
+          "b) Fire blanket")
+
 
 
