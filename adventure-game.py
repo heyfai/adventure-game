@@ -27,6 +27,18 @@ def kitchenScene():
           "What do you look for first?"
           "a) Fire extinguisher"
           "b) Fire blanket")
+    command = input()
+
+def vipLounge():
+    monster = ["zombie"]
+    item = ["Gold bar"]
+    print("You enter the VIP lounge. It looks expensive."
+          "Wait... Is that a gold bar?")
+    print("What do you do now? (Take/Leave)")
+
+def Level2():
+
+
 
 
 
