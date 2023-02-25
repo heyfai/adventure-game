@@ -30,13 +30,17 @@ def kitchenScene():
     command = input()
 
 def vipLounge():
-    monster = ["zombie"]
+    monster = ["zombies"]
     item = ["Gold bar"]
     print("You enter the VIP lounge. It looks expensive."
           "Wait... Is that a gold bar?")
     print("What do you do now? (Take/Leave)")
 
 def Level2():
+    item = ["Golden key"]
+    directions = ["North", "South", "East", "West"]
+    print("I need to find my way to the rooftop.")
+
 
 
 
